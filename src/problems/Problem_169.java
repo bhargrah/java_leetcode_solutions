@@ -35,7 +35,7 @@ public class Problem_169 {
 		
 		return dict.entrySet().stream() // create stream
         .max(Comparator.comparing(Map.Entry::getValue)) // get max value
-        .get().getKey(); // get key corresponding to max value retured 
+        .get().getKey(); // get key corresponding to max value returned 
 		
 	}
 
