@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * @category 739. Daily Temperatures
  * @see https://leetcode.com/problems/daily-temperatures/
  */
-public class Problem_739 {
+public class Solution_739 {
 
 	public static void main(String[] args) {
 

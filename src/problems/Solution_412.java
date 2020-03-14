@@ -8,7 +8,7 @@ import java.util.List;
  * @category 412. Fizz Buzz
  * @see https://leetcode.com/problems/fizz-buzz/ 
  */
-public class Problem_412 {
+public class Solution_412 {
 	
 	public static void main(String[] args) {
 

@@ -8,7 +8,7 @@ import java.util.Map;
  * @category 217. Contains Duplicate
  * @see https://leetcode.com/problems/contains-duplicate/
  */
-public class Problem_217 {
+public class Solution_217 {
 
 	public static void main(String[] args) {
 

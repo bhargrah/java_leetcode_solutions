@@ -5,7 +5,7 @@ package problems;
  * @category 268. Missing Number
  * @see https://leetcode.com/problems/missing-number/
  */
-public class Problem_268 {
+public class Solution_268 {
 
 	public static void main(String[] args) {
 		int[] input = { 9, 6, 4, 2, 3, 5, 7, 0, 1 };

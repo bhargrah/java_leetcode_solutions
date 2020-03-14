@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @category 283. Move Zeroes
  * @see https://leetcode.com/problems/move-zeroes/
  */
-public class Problem_283 {
+public class Solution_283 {
 
 	public static void main(String[] args) {
 		int[] input = { 0, 1, 0, 36, 8, 0, 0, 12 };

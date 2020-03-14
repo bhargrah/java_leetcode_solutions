@@ -14,7 +14,7 @@ import java.util.Map;
  * @see https://leetcode.com/problems/top-k-frequent-elements/
  */
 
-public class Problem_347 {
+public class Solution_347 {
 
     class Elements {
 
@@ -27,7 +27,7 @@ public class Problem_347 {
 	
 	public static void main(String[] args) {
 
-		Problem_347 invoker = new Problem_347();
+		Solution_347 invoker = new Solution_347();
 		
 		// sample input 
 		int[] nums = {1,1,1,2,2,3};

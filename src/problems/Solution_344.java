@@ -5,7 +5,7 @@ package problems;
  * @category 344. Reverse String
  * @see https://leetcode.com/problems/reverse-string/
  */
-public class Problem_344 {
+public class Solution_344 {
 
 	public static void main(String[] args) {
 		String input = "hello";

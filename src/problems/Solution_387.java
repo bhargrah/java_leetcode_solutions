@@ -8,7 +8,7 @@ import java.util.Map;
  * @category 387. First Unique Character in a String
  * @see https://leetcode.com/problems/first-unique-character-in-a-string/
  */
-public class Problem_387 {
+public class Solution_387 {
 
 	public static void main(String[] args) {
 

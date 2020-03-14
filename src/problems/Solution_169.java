@@ -9,7 +9,7 @@ import java.util.Map;
  * @category 169. Majority Element  
  * @see https://leetcode.com/problems/majority-element/
  */
-public class Problem_169 {
+public class Solution_169 {
 
 	public static void main(String[] args) {
 

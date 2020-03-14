@@ -8,7 +8,7 @@ import java.util.Map;
  * @category 136. Single Number
  * @see https://leetcode.com/problems/single-number/
  */
-public class Problem_136 {
+public class Solution_136 {
 
 	public static void main(String[] args) {
 
