@@ -18,17 +18,18 @@ public class Solution_326 {
 
 	public static boolean isPowerOfThree(int n) {
 
-		if (n <= 0) return false; 
-		
-        int number = n;
-        int multi_factor = 1;
-        
-        while (number > 1) {
-        	number /= 3; // keep dividing the number by 3
-        	multi_factor *= 3; // keep multiplying the number to calculate multiple number
-        }
-        
-        return n%multi_factor == 0; // need to check if the number is same as multiple factor
+		if (n <= 0)
+			return false;
+
+		int number = n;
+		int multi_factor = 1;
+
+		while (number > 1) {
+			number /= 3; // keep dividing the number by 3
+			multi_factor *= 3; // keep multiplying the number to calculate multiple number
+		}
+
+		return n % multi_factor == 0; // need to check if the number is same as multiple factor
 	}
 
 }
