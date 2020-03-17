@@ -1,5 +1,11 @@
 package problems;
 
+/**
+ * @author rahulbhargava
+ * @category 204. Count Primes
+ * @see https://leetcode.com/problems/count-primes/
+ */
+
 public class Solution_204 {
 
 	public static void main(String[] args) {
