@@ -1,5 +1,7 @@
 package problems;
 
+import java.util.Arrays;
+
 /**
  * @author rahulbhargava
  * @category 66 . Plus One
@@ -13,48 +15,28 @@ public class Solution_66 {
 		int[] input = { 7, 2, 8, 5, 0, 9, 1, 2, 9, 5, 3, 6, 6, 7, 3, 2, 8, 4, 3, 7, 9, 5, 7, 7, 4, 7, 4, 9, 4, 7, 0, 1,
 				1, 1, 7, 4, 0, 0, 6 };
 
-		plusOne(input);
+		System.out.println(Arrays.toString(plusOne(input)));
 
 	}
 
+	
 	public static int[] plusOne(int[] digits) {
 
-		int finalDigit = digits[digits.length - 1];
-		boolean carryForward = false;
+		for (int i = digits.length - 1; i >= 0; i--) {
 
-		if (finalDigit < 9) {
-			
-			digits[digits.length - 1] = digits[digits.length - 1] + 1;
-			
-		} else {
-
-			for (int iCnt = digits.length - 1; iCnt >= 0; iCnt--) {
-
-				if (digits[iCnt] >= 9) {
-
-					if (iCnt == 0) { // end of of the array , so needs to increase the size of final array
-
-						digits = new int[digits.length + 1];
-						digits[iCnt] = 1;
-						return digits;
-
-					}
-					
-					digits[iCnt] = 0;
-					carryForward = true;
-					continue;
-				}
-
-				if (carryForward) { 
-					digits[iCnt] = digits[iCnt] + 1;
-					carryForward = false;
-					break;
-				}
-
+			if (digits[i] < 9) {
+				digits[i]++;
+				return digits;
 			}
+
+			digits[i] = 0; // marking
+
 		}
 
-		return digits;
+		int[] result = new int[digits.length + 1];
+		result[0] = 1;
+
+		return result;
 	}
 
 }
