@@ -20,22 +20,17 @@ public class Solution_387 {
 	public static int firstUniqChar(String s) {
 
 		char[] sampleInput = s.toCharArray();
-		Map<String, Integer> wallet = new HashMap<>();
+		Map<Character, Integer> wallet = new HashMap<>();		
 
+		Character key = Character.valueOf(sampleInput[0]);
+		
 		for (char sample : sampleInput) {
-
-			String key = String.valueOf(sample);
-
-			if (wallet.get(key) == null)
-				wallet.put(key, 1);
-			else
-				wallet.put(key, wallet.get(key) + 1);
-
+			key = Character.valueOf(sample);
+			wallet.put(key, wallet.getOrDefault(key, 0) + 1);
 		}
 
 		for (int iCnt = 0; iCnt < sampleInput.length; iCnt++) {
-
-			String key = String.valueOf(sampleInput[iCnt]);
+			key = Character.valueOf(sampleInput[iCnt]);
 			if (wallet.get(key) == 1)
 				return iCnt; // return first index which is non repeating
 
