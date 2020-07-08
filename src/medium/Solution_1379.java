@@ -2,21 +2,21 @@ package medium;
 
 /**
  * @author rahulbhargava
- * @category 1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+ * @category 1379. Find a Corresponding Node of a Binary Tree in a Clone of That
+ *           Tree
  * @see https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/
  */
 
-class TreeNode {
-	int val;
-	TreeNode left;
-	TreeNode right;
-
-	TreeNode(int x) {
-		val = x;
-	}
-}
-
 public class Solution_1379 {
+	class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+
+		TreeNode(int x) {
+			val = x;
+		}
+	}
 
 	public static void main(String[] args) {
 
