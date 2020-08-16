@@ -25,7 +25,7 @@ System.out.println( (4&0) == 1);  --> false (for odd values)
 	if (number == 2 || number == 3) return true;
 	
 	int sqrt = (int) Math.sqrt(number) + 1;
-	for (int i = 3; i < sqrt; i += 2)  // start from 3 and increment by 2 , no check for odd
+	for (int i = 3; i < sqrt; i += 2)  // start from 3 and increment by 2 , no check for even
 		if (number % i == 0) return false;
 	
 	return true;
