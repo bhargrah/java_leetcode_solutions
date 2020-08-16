@@ -3,7 +3,7 @@
 # Table of Content
 - [Bit Manipulation](#bit_manipulation)
 - [Operations](#operations)
- - isPrime Logic
+  * isPrime Logic
 
 
 ## <a id="bit_manipulation"></a>Bit Manipulation
