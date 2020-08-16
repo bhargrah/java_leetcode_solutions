@@ -12,8 +12,6 @@
 ## <a id="bit_manipulation"></a>Bit Manipulation
 * Odd/Even Check 
 ```java
-System.out.println( (4&0) == 0); 
-System.out.println( (4&0) == 1); 
-true
-false
+System.out.println( (4&0) == 0);  --> true (for even values)
+System.out.println( (4&0) == 1);  --> false (for odd values)
 ```
