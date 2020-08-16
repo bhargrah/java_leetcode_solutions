@@ -3,10 +3,7 @@
 # Table of Content
 - [Bit Manipulation](#bit_manipulation)
 - [Operations](#operations)
-- [Observability in Microservices?](#observability)
-- [How do Microservice Communicate?](#communication)
-- [How to Security/Authentication in Microservice?](#secure_auth)
-- [How to Load Test Your Microservice?](#load_test)
+ - isPrime Logic
 
 
 ## <a id="bit_manipulation"></a>Bit Manipulation
