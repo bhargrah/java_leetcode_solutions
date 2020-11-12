@@ -11,7 +11,7 @@
 | Multiply x by 2<sup>k</sup> | x << k | 5 * 8 = 5 << 3 |
 | Divide x by 2<sup>k</sup>  |x >> k  | 20 / 16 = 20 >> 4 |
 | Mod by 2<sup>k</sup>  | x & (2<sup>k</sup>-1)  | 20 % 16 = 20 & 15 |
-| Is x power of 2? | x = (2<sup>k</sup>) | (x != 0) && (x & (x - 1)) == 0 |
+| Is x power of 2? | (x != 0) && (x & (x - 1)) == 0  | x = (2<sup>k</sup>) |
 
 
 ## <a id="operations"></a>Operations
