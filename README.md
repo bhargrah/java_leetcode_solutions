@@ -10,7 +10,7 @@ System.out.println( (4&0) == 0);  --> true (for even values)
 System.out.println( (4&0) == 1);  --> false (for odd values)
 ```
 
-| Operations  | Java Sample | Remarks |
+| Operations  |  Sample | Remarks |
 | ------------- | ------------- | ------------- |
 | Even Check   | (x&0) == 0  | (4&0) == 0 [true (x is even)] |
 | Odd Check | (x&0) == 1  | (3&0) == 0 [true (x is odd)] |
