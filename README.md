@@ -1,5 +1,6 @@
 # Algo Cheatsheet
 - [Bit Manipulation](#bit_manipulation)
+  * Odd/Even Check 
 - [Operations](#operations)
   * isPrime Logic
 
