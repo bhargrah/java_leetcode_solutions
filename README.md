@@ -6,8 +6,8 @@
 ## <a id="bit_manipulation"></a>Bit Manipulation
 | Operations  |  Sample | Remarks |
 | ------------- | ------------- | ------------- |
-| Even Check   | (x&0) == 0  | (4&0) == 0 [true (x is even)] |
-| Odd Check | (x&0) == 1  | (3&0) == 0 [true (x is odd)] |
+| Even Check   | (x&0) == 0  | (4&0) == 0  |
+| Odd Check | (x&0) == 1  | (4&0) == 0 |
 | Multiply x by 2<sup>k</sup> | x << k | 5 * 8 = 5 << 3 |
 | Divide x by 2<sup>k</sup>  |x >> k  | 20 / 16 = 20 >> 4 |
 | Mod by 2<sup>k</sup>  | x & (2<sup>k</sup>-1)  | 20 % 16 = 20 & 15 |
