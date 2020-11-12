@@ -1,12 +1,9 @@
 # Algo Cheatsheet
 - [Bit Manipulation](#bit_manipulation)
-  * Odd/Even Check 
 - [Operations](#operations)
-  * isPrime Logic
 
 
 ## <a id="bit_manipulation"></a>Bit Manipulation
-
 * Odd/Even Check 
 ```java
 System.out.println( (4&0) == 0);  --> true (for even values)
@@ -14,7 +11,6 @@ System.out.println( (4&0) == 1);  --> false (for odd values)
 ```
 
 ## <a id="operations"></a>Operations
-
 * isPrime Logic
 ```java
  isPrimeNumber(int number) {
