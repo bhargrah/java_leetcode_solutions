@@ -1,4 +1,4 @@
-# Algo Hacks
+# Algo Cheatsheet
 
 # Table of Content
 - [Bit Manipulation](#bit_manipulation)
