@@ -1,6 +1,4 @@
 # Algo Cheatsheet
-
-# Table of Content
 - [Bit Manipulation](#bit_manipulation)
 - [Operations](#operations)
   * isPrime Logic
