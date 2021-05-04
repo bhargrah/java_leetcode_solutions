@@ -29,3 +29,4 @@
 	return true;
 }
 ```
+## <a id="string"></a>String
