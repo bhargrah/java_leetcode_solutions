@@ -1,6 +1,7 @@
 # Algo Cheatsheet
 - [Bit Manipulation](#bit_manipulation)
 - [Operations](#operations)
+- [String](#string)
 
 
 ## <a id="bit_manipulation"></a>Bit Manipulation
@@ -28,3 +29,4 @@
 	return true;
 }
 ```
+## <a id="string"></a>String
